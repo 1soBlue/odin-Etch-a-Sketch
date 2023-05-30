@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#grid {
+  width: 960px;
+  height: 960px;
+  border-width: 1px;
+  border-color: aqua;
+  border-style: solid;
+  box-sizing: content-box;
+  padding: 0px;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.box {
+  box-sizing: border-box;
+}
